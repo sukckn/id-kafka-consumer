@@ -21,7 +21,7 @@ spec:
               value: kafka-service.kafka.svc.cluster.local:9092
             - name: CONSUMER_SCR_audit_logger
               value: audit_logger:http://scr-write-log.scr.svc.cluster.local/write-log
-            - name: CONSUMER_SCR_SCR_save_flow_vars
+            - name: CONSUMER_SCR_save_flow_vars
               value: save_flow_vars:http://scr-write-log.scr.svc.cluster.local/write-log
             - name: LOG_LEVEL
               value: INFO
